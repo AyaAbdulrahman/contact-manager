@@ -30,6 +30,7 @@ function ContactForm({ addContact }) {
       />
 
       <button type="submit">Add</button>
+      
     </form>
   );
 }
