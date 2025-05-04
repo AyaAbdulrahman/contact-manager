@@ -1,6 +1,40 @@
 .App {
   text-align: center;
 }
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  /* font-family: Arial, sans-serif; */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+h1::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  background-color: #00bcd4;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
 
 .App-logo {
   height: 40vmin;
